@@ -23,7 +23,7 @@ function App() {
       {/* <Header /> */}
         <Routes>
           <Route path="*" element={<NotFound />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/project" element={<Project />} />
           <Route path="/activities" element={<Activities />} />

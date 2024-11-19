@@ -55,7 +55,7 @@ function Header() {
 			<header class='header_section'>
 				<div class='container'>
 					<nav class='navbar navbar-expand-lg custom_nav-container pt-3'>
-						<a class='navbar-brand mr-5' href='/home'>
+						<a class='navbar-brand mr-5' href='/'>
 							<img
 								src={logo}
 								alt='Logo'
@@ -78,7 +78,7 @@ function Header() {
 							<div class='d-flex ml-auto flex-column flex-lg-row align-items-center'>
 								<ul class='navbar-nav'>
 									<li class='nav-item active'>
-										<a class='nav-link' href='/home'>
+										<a class='nav-link' href='/'>
 											{" "}
 											Accueil{" "}
 										</a>
