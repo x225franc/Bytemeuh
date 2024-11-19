@@ -5,12 +5,6 @@
 /.pnp
 .pnp.js
 
-# testing
-/coverage
-
-# production
-# /build  <-- Comment out or remove this line
-
 # misc
 .DS_Store
 .env.local
