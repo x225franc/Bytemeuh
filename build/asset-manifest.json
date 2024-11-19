@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5208d90d.css",
+    "main.js": "/static/js/main.17397856.js",
+    "static/js/453.1af4cbc9.chunk.js": "/static/js/453.1af4cbc9.chunk.js",
+    "static/media/mobile_app.webp": "/static/media/mobile_app.1e385ff5d360d1667a86.webp",
+    "static/media/ai_3.webp": "/static/media/ai_3.3eaa02750726c9959717.webp",
+    "static/media/sensor.webp": "/static/media/sensor.32f38ae88f0f5440135a.webp",
+    "static/media/about_1.webp": "/static/media/about_1.4eb01b569d962fe5fd3a.webp",
+    "static/media/data_analysis.webp": "/static/media/data_analysis.7139734a6438ead61f58.webp",
+    "static/media/about_3.webp": "/static/media/about_3.51f0066b74892abf3d8c.webp",
+    "static/media/client_1.webp": "/static/media/client_1.2ffbd6ce8fbb7a242c2c.webp",
+    "static/media/carb_3.webp": "/static/media/carb_3.edfdb2c9b6f763ea9e05.webp",
+    "static/media/home_1.webp": "/static/media/home_1.e85243c5de32546723db.webp",
+    "static/media/client_3.webp": "/static/media/client_3.45e9b6dad41b36740080.webp",
+    "static/media/personalized_advice.webp": "/static/media/personalized_advice.dbc82fa93ae99800ab53.webp",
+    "static/media/carb_1.webp": "/static/media/carb_1.f014b35f370ed4815156.webp",
+    "static/media/client_2.webp": "/static/media/client_2.694612871d0e837bf53e.webp",
+    "static/media/hero-bg.webp": "/static/media/hero-bg.3413891dec69ab2d6229.webp",
+    "static/media/ai_2.webp": "/static/media/ai_2.f95990fdc86c26304941.webp",
+    "static/media/surv_3.webp": "/static/media/surv_3.630f39a840b85128f9ca.webp",
+    "static/media/about_2.webp": "/static/media/about_2.3d0bb9f8c27ca3e16bc1.webp",
+    "static/media/milk_3.webp": "/static/media/milk_3.6ff0ba2266bcdb7f8588.webp",
+    "static/media/carb_2.webp": "/static/media/carb_2.1432dc5902ff97c599c7.webp",
+    "static/media/surv_2.webp": "/static/media/surv_2.333046081e383b3cb40d.webp",
+    "static/media/milk_2.webp": "/static/media/milk_2.ce8bded15bcf18940fc6.webp",
+    "static/media/ai_1.webp": "/static/media/ai_1.d253c41665e58f45a900.webp",
+    "static/media/surv_1.webp": "/static/media/surv_1.f4a791a2ab8eaac88ccf.webp",
+    "static/media/milk_1.webp": "/static/media/milk_1.f4e4c257990ce78b1e87.webp",
+    "static/media/contact-img.webp": "/static/media/contact-img.bd42a9eb4229045001e0.webp",
+    "static/media/body_bg.webp": "/static/media/body_bg.f7115f906d10d8e47469.webp",
+    "static/media/logo.webp": "/static/media/logo.f454bd513b638fa71978.webp",
+    "index.html": "/index.html",
+    "main.5208d90d.css.map": "/static/css/main.5208d90d.css.map",
+    "main.17397856.js.map": "/static/js/main.17397856.js.map",
+    "453.1af4cbc9.chunk.js.map": "/static/js/453.1af4cbc9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5208d90d.css",
+    "static/js/main.17397856.js"
+  ]
+}
