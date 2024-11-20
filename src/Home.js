@@ -424,7 +424,7 @@ function Home() {
 						<div class='heading_container'>
 							<h2>Contactez nous !</h2>
 						</div>
-						<div class='box'>
+						<div class='box' style={{color: "#520000"}}>
 							<a
 								href='https://maps.app.goo.gl/1Xa4sjZ4YCFtsfzP6'
 								target='_blank'
