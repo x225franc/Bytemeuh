@@ -111,12 +111,12 @@ function Contact() {
 											<div class='client_name'>
 												<div>
 													<h3>Clara D.</h3>
-													<p>Éleveuse Bio</p>
+													<p >Éleveuse Bio</p>
 												</div>
 											</div>
 										</div>
 										<div class='client_detail'>
-											<div class='client_text'>
+											<div class='client_text' >
 												<blockquote>
 													<p>
 														“ByteMeuh a révolutionné la manière dont je
@@ -138,12 +138,12 @@ function Contact() {
 											<div class='client_name'>
 												<div>
 													<h3>Thomas B.</h3>
-													<p>Ferme de l’Oasis</p>
+													<p >Ferme de l’Oasis</p>
 												</div>
 											</div>
 										</div>
 										<div class='client_detail'>
-											<div class='client_text'>
+											<div class='client_text' >
 												<blockquote>
 													<p>
 														“L’application est intuitive et m’aide à optimiser
@@ -164,12 +164,12 @@ function Contact() {
 											<div class='client_name'>
 												<div>
 													<h3>Camille L.</h3>
-													<p>Ferme de Montaigne</p>
+													<p >Ferme de Montaigne</p>
 												</div>
 											</div>
 										</div>
 										<div class='client_detail'>
-											<div class='client_text'>
+											<div class='client_text' >
 												<blockquote>
 													<p>
 														“Grâce à ByteMeuh, je comprends mieux les besoins de
@@ -201,16 +201,25 @@ function Contact() {
 								class='img-box'
 								rel='noreferrer'
 							>
-								<i class='bi bi-geo-alt-fill' style={{ fontSize: "50px" }}></i>
+								<i
+									className='bi bi-geo-alt-fill'
+									style={{ fontSize: "50px" }}
+								></i>
+								Adresse
 							</a>
 							<a href='tel:+330156069041' class='img-box'>
 								<i
-									class='bi bi-telephone-fill'
+									className='bi bi-telephone-fill'
 									style={{ fontSize: "50px" }}
 								></i>
+								Téléphone
 							</a>
 							<a href='mailto:adiawara33@myges.fr' class='img-box'>
-								<i class='bi bi-envelope-fill' style={{ fontSize: "50px" }}></i>
+								<i
+									className='bi bi-envelope-fill'
+									style={{ fontSize: "50px" }}
+								></i>
+								Email
 							</a>
 						</div>
 					</div>

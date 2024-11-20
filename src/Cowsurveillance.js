@@ -63,7 +63,7 @@ export default function Cowsurveillance() {
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
 										<img
 											src={surv_1}
-											alt='Image placeholder'
+											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
 										/>
 									</div>
@@ -92,7 +92,7 @@ export default function Cowsurveillance() {
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
 										<img
 											src={surv_2}
-											alt='Image placeholder'
+											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
 										/>
 									</div>
@@ -122,7 +122,7 @@ export default function Cowsurveillance() {
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
 										<img
 											src={surv_3}
-											alt='Image placeholder'
+											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
 										/>
 									</div>

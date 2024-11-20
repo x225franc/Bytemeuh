@@ -242,7 +242,7 @@ function Home() {
 										grâce à des solutions numériques intelligentes.
 									</p>
 								</div>
-								<div class='btn-box'>
+								<div class='btn btn-box'>
 									<a href='/activities'> Découvrir </a>
 								</div>
 							</div>
@@ -264,8 +264,18 @@ function Home() {
 								<div class='col-md-6'>
 									<div class='contact_form'>
 										<form method='post' action=''>
-											<input type='text' name='name' placeholder='Nom ' disabled />
-											<input type='email' name='email' placeholder='Email' disabled/>
+											<input
+												type='text'
+												name='name'
+												placeholder='Nom '
+												disabled
+											/>
+											<input
+												type='email'
+												name='email'
+												placeholder='Email'
+												disabled
+											/>
 											<input
 												type='text'
 												name='message'
@@ -377,7 +387,7 @@ function Home() {
 										<div class='client_container'>
 											<div class='client-id'>
 												<div class='img-box'>
-													<img src={client_img_3} alt='user_review'/>
+													<img src={client_img_3} alt='user_review' />
 												</div>
 												<div class='client_name'>
 													<div>
@@ -419,24 +429,27 @@ function Home() {
 								href='https://maps.app.goo.gl/1Xa4sjZ4YCFtsfzP6'
 								target='_blank'
 								class='img-box'
-								rel="noreferrer"
+								rel='noreferrer'
 							>
 								<i
 									className='bi bi-geo-alt-fill'
 									style={{ fontSize: "50px" }}
 								></i>
+								Adresse
 							</a>
 							<a href='tel:+330156069041' class='img-box'>
 								<i
 									className='bi bi-telephone-fill'
 									style={{ fontSize: "50px" }}
 								></i>
+								Téléphone
 							</a>
 							<a href='mailto:adiawara33@myges.fr' class='img-box'>
 								<i
 									className='bi bi-envelope-fill'
 									style={{ fontSize: "50px" }}
 								></i>
+								Email
 							</a>
 						</div>
 					</div>

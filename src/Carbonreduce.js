@@ -64,7 +64,7 @@ export default function Carbonreduce() {
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
 										<img
 											src={carb_1}
-											alt='Image placeholder'
+											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
 										/>
 									</div>
@@ -91,7 +91,7 @@ export default function Carbonreduce() {
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
 										<img
 											src={carb_2}
-											alt='Image placeholder'
+											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
 										/>
 									</div>
@@ -119,7 +119,7 @@ export default function Carbonreduce() {
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
 										<img
 											src={carb_3}
-											alt='Image placeholder'
+											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
 										/>
 									</div>

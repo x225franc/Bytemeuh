@@ -65,7 +65,7 @@ export default function Milkoptimization() {
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
 										<img
 											src={milk_1}
-											alt='Image placeholder'
+											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
 										/>
 									</div>
@@ -94,7 +94,7 @@ export default function Milkoptimization() {
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
 										<img
 											src={milk_2}
-											alt='Image placeholder'
+											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
 										/>
 									</div>
@@ -123,7 +123,7 @@ export default function Milkoptimization() {
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
 										<img
 											src={milk_3}
-											alt='Image placeholder'
+											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
 										/>
 									</div>

@@ -65,7 +65,7 @@ export default function Aiplusfarm() {
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
 										<img
 											src={ai_1}
-											alt='Image placeholder'
+											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
 										/>
 									</div>
@@ -94,7 +94,7 @@ export default function Aiplusfarm() {
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
 										<img
 											src={ai_2}
-											alt='Image placeholder'
+											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
 										/>
 									</div>
@@ -122,7 +122,7 @@ export default function Aiplusfarm() {
 								<div style={{ textAlign: "center", margin: "20px 0" }}>
 									<img
 										src={ai_3}
-										alt='Image placeholder'
+										alt='Bytemeuh'
 										style={{ maxWidth: "100%", borderRadius: "8px" }}
 									/>
 								</div>
