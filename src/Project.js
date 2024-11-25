@@ -1,4 +1,6 @@
+// src/Project.js
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -12,6 +14,21 @@ function Project() {
 					<Header />
 					{/* <!-- end header section --> */}
 				</div>
+
+				{/* <!-- end helmet--> */}
+				<Helmet>
+					<title>Projets - Bytemeuh</title>
+					<meta
+						name='description'
+						content='Nos projets : découvrez comment ByteMeuh révolutionne l’élevage bovin grâce à des solutions numériques intelligentes.'
+					/>
+					<meta property='og:title' content='Projets - Bytemeuh' />
+					<meta
+						property='og:description'
+						content='Nos projets : découvrez comment ByteMeuh révolutionne l’élevage bovin grâce à des solutions numériques intelligentes.'
+					/>
+				</Helmet>
+				{/* <!-- end helmet--> */}
 
 				<div class='body_bg layout_padding'>
 					{/* <!-- project section --> */}

@@ -1,4 +1,6 @@
+// src/Home.js
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import home_1 from "./images/home_1.webp";
 
@@ -23,6 +25,21 @@ function Home() {
 					{/* <!-- header section --> */}
 					<Header />
 					{/* <!-- end header--> */}
+
+					{/* <!-- end helmet--> */}
+					<Helmet>
+						<title>Bytemeuh</title>
+						<meta
+							name='description'
+							content='La tech au service des vaches !'
+						/>
+						<meta property='og:title' content='Bytemeuh' />
+						<meta
+							property='og:description'
+							content='La tech au service des vaches !'
+						/>
+					</Helmet>
+					{/* <!-- end helmet--> */}
 
 					{/* <!-- slider section --> */}
 					<section class='slider_section position-relative'>
@@ -136,7 +153,7 @@ function Home() {
 							</div>
 							<div class='col-md-6'>
 								<div class='img-box'>
-									<img src={home_1} alt='about_img' />
+									<img loading="lazy" src={home_1} alt='about_img' />
 								</div>
 							</div>
 						</div>
@@ -291,7 +308,7 @@ function Home() {
 								</div>
 								<div class='col-md-6'>
 									<div class='img-box'>
-										<img src={contact_img} alt='contact' />
+										<img loading="lazy" src={contact_img} alt='contact' />
 									</div>
 								</div>
 							</div>
@@ -334,7 +351,7 @@ function Home() {
 										<div class='client_container'>
 											<div class='client-id'>
 												<div class='img-box'>
-													<img src={client_img_1} alt='user_review' />
+													<img loading="lazy" src={client_img_1} alt='user_review' />
 												</div>
 												<div class='client_name'>
 													<div>
@@ -361,7 +378,7 @@ function Home() {
 										<div class='client_container'>
 											<div class='client-id'>
 												<div class='img-box'>
-													<img src={client_img_2} alt='user_review' />
+													<img loading="lazy" src={client_img_2} alt='user_review' />
 												</div>
 												<div class='client_name'>
 													<div>
@@ -387,7 +404,7 @@ function Home() {
 										<div class='client_container'>
 											<div class='client-id'>
 												<div class='img-box'>
-													<img src={client_img_3} alt='user_review' />
+													<img loading="lazy" src={client_img_3} alt='user_review' />
 												</div>
 												<div class='client_name'>
 													<div>
@@ -424,7 +441,7 @@ function Home() {
 						<div class='heading_container'>
 							<h2>Contactez nous !</h2>
 						</div>
-						<div class='box' style={{color: "#520000"}}>
+						<div class='box' style={{ color: "#520000" }}>
 							<a
 								href='https://maps.app.goo.gl/1Xa4sjZ4YCFtsfzP6'
 								target='_blank'

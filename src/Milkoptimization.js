@@ -1,4 +1,6 @@
+// src/Milkoptimization.js
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -16,6 +18,24 @@ export default function Milkoptimization() {
 					<Header />
 					{/* <!-- end header section --> */}
 				</div>
+
+				{/* <!-- end helmet--> */}
+				<Helmet>
+					<title>Optimisation de la production laitière - Bytemeuh</title>
+					<meta
+						name='description'
+						content='Grâce aux avancées technologiques, les données occupent une place centrale dans l’optimisation de la production laitière. Découvrons comment l’analyse de données transforme la gestion des élevages pour des rendements plus durables.'
+					/>
+					<meta
+						property='og:title'
+						content='Optimisation de la production laitière - Bytemeuh'
+					/>
+					<meta
+						property='og:description'
+						content='Grâce aux avancées technologiques, les données occupent une place centrale dans l’optimisation de la production laitière. Découvrons comment l’analyse de données transforme la gestion des élevages pour des rendements plus durables.'
+					/>
+				</Helmet>
+				{/* <!-- end helmet--> */}
 
 				<div class='body_bg'>
 					<div class='body_bg'>
@@ -63,7 +83,7 @@ export default function Milkoptimization() {
 										durables.
 									</p>
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
-										<img
+										<img loading="lazy"
 											src={milk_1}
 											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
@@ -92,7 +112,7 @@ export default function Milkoptimization() {
 										sacrifier la qualité de vie des vaches.
 									</p>
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
-										<img
+										<img loading="lazy"
 											src={milk_2}
 											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
@@ -121,7 +141,7 @@ export default function Milkoptimization() {
 										vache.
 									</p>
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
-										<img
+										<img loading="lazy"
 											src={milk_3}
 											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}

@@ -1,4 +1,6 @@
+// src/Carbonreduce.js
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -16,6 +18,24 @@ export default function Carbonreduce() {
 					<Header />
 					{/* <!-- end header section --> */}
 				</div>
+
+				{/* <!-- end helmet--> */}
+				<Helmet>
+					<title>Réduction de l’empreinte carbone - Bytemeuh</title>
+					<meta
+						name='description'
+						content='Bytemeuh s’engage à intégrer les technologies pour réduire l’empreinte carbone des élevages. Découvrez comment la tech peut transformer l’agriculture pour un avenir plus durable'
+					/>
+					<meta
+						property='og:title'
+						content='Réduction de l’empreinte carbone - Bytemeuh'
+					/>
+					<meta
+						property='og:description'
+						content='Bytemeuh s’engage à intégrer les technologies pour réduire l’empreinte carbone des élevages. Découvrez comment la tech peut transformer l’agriculture pour un avenir plus durable'
+					/>
+				</Helmet>
+				{/* <!-- end helmet--> */}
 
 				<div class='body_bg'>
 					<div class='body_bg'>
@@ -62,7 +82,7 @@ export default function Carbonreduce() {
 										un avenir agricole respectueux de l’environnement.
 									</p>
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
-										<img
+										<img loading="lazy"
 											src={carb_1}
 											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
@@ -89,7 +109,7 @@ export default function Carbonreduce() {
 										optimisant chaque litre d'eau ou kilo de nourriture utilisé.
 									</p>
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
-										<img
+										<img loading="lazy"
 											src={carb_2}
 											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
@@ -117,7 +137,7 @@ export default function Carbonreduce() {
 										productivité des animaux.
 									</p>
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
-										<img
+										<img loading="lazy"
 											src={carb_3}
 											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}

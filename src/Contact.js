@@ -1,4 +1,7 @@
+// src/Contact.js
 import React from "react";
+import { Helmet } from "react-helmet";
+
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -16,6 +19,21 @@ function Contact() {
 					<Header />
 					{/* <!-- end header section --> */}
 				</div>
+
+				{/* <!-- end helmet--> */}
+				<Helmet>
+					<title>Contact - Bytemeuh</title>
+					<meta
+						name='description'
+						content='Contactez-nous pour toute question ou demande de renseignements.'
+					/>
+					<meta property='og:title' content='Contact - Bytemeuh' />
+					<meta
+						property='og:description'
+						content='Contactez-nous pour toute question ou demande de renseignements.'
+					/>
+				</Helmet>
+				{/* <!-- end helmet--> */}
 
 				<div class='body_bg layout_padding'>
 					{/* <!-- contact section --> */}
@@ -60,7 +78,7 @@ function Contact() {
 								</div>
 								<div class='col-md-6'>
 									<div class='img-box'>
-										<img src={contact_img} alt='contact' />
+										<img loading="lazy" src={contact_img} alt='contact' />
 									</div>
 								</div>
 							</div>
@@ -106,17 +124,17 @@ function Contact() {
 									<div class='client_container'>
 										<div class='client-id'>
 											<div class='img-box'>
-												<img src={client_img_1} alt='user_review' />
+												<img loading="lazy" src={client_img_1} alt='user_review' />
 											</div>
 											<div class='client_name'>
 												<div>
 													<h3>Clara D.</h3>
-													<p >Éleveuse Bio</p>
+													<p>Éleveuse Bio</p>
 												</div>
 											</div>
 										</div>
 										<div class='client_detail'>
-											<div class='client_text' >
+											<div class='client_text'>
 												<blockquote>
 													<p>
 														“ByteMeuh a révolutionné la manière dont je
@@ -133,17 +151,17 @@ function Contact() {
 									<div class='client_container'>
 										<div class='client-id'>
 											<div class='img-box'>
-												<img src={client_img_2} alt='user_review' />
+												<img loading="lazy" src={client_img_2} alt='user_review' />
 											</div>
 											<div class='client_name'>
 												<div>
 													<h3>Thomas B.</h3>
-													<p >Ferme de l’Oasis</p>
+													<p>Ferme de l’Oasis</p>
 												</div>
 											</div>
 										</div>
 										<div class='client_detail'>
-											<div class='client_text' >
+											<div class='client_text'>
 												<blockquote>
 													<p>
 														“L’application est intuitive et m’aide à optimiser
@@ -159,17 +177,17 @@ function Contact() {
 									<div class='client_container'>
 										<div class='client-id'>
 											<div class='img-box'>
-												<img src={client_img_3} alt='user_review' />
+												<img loading="lazy" src={client_img_3} alt='user_review' />
 											</div>
 											<div class='client_name'>
 												<div>
 													<h3>Camille L.</h3>
-													<p >Ferme de Montaigne</p>
+													<p>Ferme de Montaigne</p>
 												</div>
 											</div>
 										</div>
 										<div class='client_detail'>
-											<div class='client_text' >
+											<div class='client_text'>
 												<blockquote>
 													<p>
 														“Grâce à ByteMeuh, je comprends mieux les besoins de
@@ -194,7 +212,7 @@ function Contact() {
 						<div class='heading_container'>
 							<h2>Contactez nous !</h2>
 						</div>
-						<div class='box' style={{color: "#520000"}}>
+						<div class='box' style={{ color: "#520000" }}>
 							<a
 								href='https://maps.app.goo.gl/1Xa4sjZ4YCFtsfzP6'
 								target='_blank'

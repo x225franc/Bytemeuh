@@ -1,4 +1,6 @@
+// src/Activities.js
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -17,6 +19,21 @@ function Activities() {
 					<Header />
 					{/* <!-- end header section --> */}
 				</div>
+
+				{/* <!-- end helmet--> */}
+				<Helmet>
+						<title>Activité - Bytemeuh</title>
+						<meta
+							name='description'
+							content='Découvrez comment ByteMeuh révolutionne l’élevage bovin grâce à des solutions numériques intelligentes.'
+						/>
+						<meta property='og:title' content='Activité - Bytemeuh' />
+						<meta
+							property='og:description'
+							content='Découvrez comment ByteMeuh révolutionne l’élevage bovin grâce à des solutions numériques intelligentes.'
+						/>
+					</Helmet>
+					{/* <!-- end helmet--> */}
 
 				<div class='body_bg layout_padding'>
 					{/* <!-- activities section --> */}
@@ -44,7 +61,7 @@ function Activities() {
 													boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
 												}}
 											>
-												<img
+												<img loading="lazy"
 													src={sensors}
 													alt='Capteurs intelligents'
 													class='card-img-top'
@@ -71,7 +88,7 @@ function Activities() {
 													boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
 												}}
 											>
-												<img
+												<img loading="lazy"
 													src={data_analysis}
 													alt='Analyse des données'
 													class='card-img-top'
@@ -98,7 +115,7 @@ function Activities() {
 													boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
 												}}
 											>
-												<img
+												<img loading="lazy"
 													src={mobile_app}
 													alt='Applications mobiles'
 													class='card-img-top'
@@ -125,7 +142,7 @@ function Activities() {
 													boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
 												}}
 											>
-												<img
+												<img loading="lazy"
 													src={personalized_advice}
 													alt='Conseils personnalisés'
 													class='card-img-top'

@@ -1,4 +1,6 @@
+// src/About.js
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -16,6 +18,21 @@ function About() {
 					<Header />
 					{/* <!-- end header section --> */}
 				</div>
+
+				{/* <!-- end helmet--> */}
+				<Helmet>
+					<title>A propos - Bytemeuh</title>
+					<meta
+						name='description'
+						content='Qu’est-ce que ByteMeuh ? Découvrez comment ByteMeuh révolutionne l’élevage bovin grâce à des solutions numériques intelligentes.'
+					/>
+					<meta property='og:title' content='A propos - Bytemeuh' />
+					<meta
+						property='og:description'
+						content='Qu’est-ce que ByteMeuh ? Découvrez comment ByteMeuh révolutionne l’élevage bovin grâce à des solutions numériques intelligentes.'
+					/>
+				</Helmet>
+				{/* <!-- end helmet--> */}
 
 				{/* <!-- about section --> */}
 
@@ -51,7 +68,7 @@ function About() {
 							</div>
 							<div class='col-md-6'>
 								<div class='img-box'>
-									<img src={about_1} alt='about_img' />
+									<img loading="lazy" src={about_1} alt='about_img' />
 								</div>
 							</div>
 						</div>
@@ -61,7 +78,7 @@ function About() {
 						<div class='row'>
 							<div class='col-md-6'>
 								<div class='img-box'>
-									<img src={about_2} alt='about_img' />
+									<img loading="lazy" src={about_2} alt='about_img' />
 								</div>
 							</div>
 							<div class='col-md-6'>
@@ -98,7 +115,7 @@ function About() {
 							</div>
 							<div class='col-md-6'>
 								<div class='img-box'>
-									<img src={about_3} alt='about_img' />
+									<img loading="lazy" src={about_3} alt='about_img' />
 								</div>
 							</div>
 						</div>

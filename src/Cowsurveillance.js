@@ -1,4 +1,6 @@
+// src/Cowsurveillance.js
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -16,6 +18,24 @@ export default function Cowsurveillance() {
 					<Header />
 					{/* <!-- end header section --> */}
 				</div>
+
+				{/* <!-- end helmet--> */}
+				<Helmet>
+					<title>Surveillance de la santé des vaches - Bytemeuh</title>
+					<meta
+						name='description'
+						content='Bytemeuh révolutionne la gestion sanitaire des troupeaux grâce à des capteurs intelligents. Découvrez comment la technologie améliore le bien-être des vaches.'
+					/>
+					<meta
+						property='og:title'
+						content='Surveillance de la santé des vaches - Bytemeuh'
+					/>
+					<meta
+						property='og:description'
+						content='Bytemeuh révolutionne la gestion sanitaire des troupeaux grâce à des capteurs intelligents. Découvrez comment la technologie améliore le bien-être des vaches.'
+					/>
+				</Helmet>
+				{/* <!-- end helmet--> */}
 
 				<div class='body_bg'>
 					<div class='body_bg'>
@@ -61,7 +81,7 @@ export default function Cowsurveillance() {
 										troupeaux et assure un bien-être optimal pour chaque animal.
 									</p>
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
-										<img
+										<img loading="lazy"
 											src={surv_1}
 											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
@@ -90,7 +110,7 @@ export default function Cowsurveillance() {
 										troupeaux.
 									</p>
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
-										<img
+										<img loading="lazy"
 											src={surv_2}
 											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
@@ -120,7 +140,7 @@ export default function Cowsurveillance() {
 										exploitation.
 									</p>
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
-										<img
+										<img loading="lazy"
 											src={surv_3}
 											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}

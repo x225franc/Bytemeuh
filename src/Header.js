@@ -16,13 +16,10 @@ function Header() {
 				/>
 				{/* <!-- Site Metas --> */}
 				<meta name='keywords' content='' />
-				<meta name='description' content='La tech au service des vaches !' />
 				<meta name='author' content='x225franc' />
 
 				{/* <!-- Favicons --> */}
 				<link rel='icon' href='/favicon.ico' />
-
-				<title>Bytemeuh</title>
 
 				{/* <!-- slider stylesheet --> */}
 				{/* <link
@@ -56,7 +53,7 @@ function Header() {
 				<div class='container'>
 					<nav class='navbar navbar-expand-lg custom_nav-container pt-3'>
 						<a class='navbar-brand mr-5' href='/'>
-							<img
+							<img loading="lazy"
 								src={logo}
 								alt='Logo'
 								style={{ width: "100px", height: "auto" }}

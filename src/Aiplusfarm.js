@@ -1,4 +1,6 @@
+// src/Aiplusfarm.js
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -16,6 +18,18 @@ export default function Aiplusfarm() {
 					<Header />
 					{/* <!-- end header section --> */}
 				</div>
+
+				{/* <!-- end helmet--> */}
+				<Helmet>
+					<title>L'IA et les vaches - Bytemeuh</title>
+					<meta name='description' content='L’intelligence artificielle dans le bien etre des vaches' />
+					<meta property='og:title' content='L’IA et les vaches - Bytemeuh' />
+					<meta
+						property='og:description'
+						content='L’intelligence artificielle dans le bien etre des vaches'
+					/>
+				</Helmet>
+				{/* <!-- end helmet--> */}
 
 				<div class='body_bg'>
 					<div class='body_bg'>
@@ -63,7 +77,7 @@ export default function Aiplusfarm() {
 										animaux.
 									</p>
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
-										<img
+										<img loading="lazy"
 											src={ai_1}
 											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
@@ -92,7 +106,7 @@ export default function Aiplusfarm() {
 										devienne critique.
 									</p>
 									<div style={{ textAlign: "center", margin: "20px 0" }}>
-										<img
+										<img loading="lazy"
 											src={ai_2}
 											alt='Bytemeuh'
 											style={{ maxWidth: "100%", borderRadius: "8px" }}
@@ -120,7 +134,7 @@ export default function Aiplusfarm() {
 									</p>
 								</div>
 								<div style={{ textAlign: "center", margin: "20px 0" }}>
-									<img
+									<img loading="lazy"
 										src={ai_3}
 										alt='Bytemeuh'
 										style={{ maxWidth: "100%", borderRadius: "8px" }}
