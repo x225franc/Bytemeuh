@@ -20,25 +20,56 @@ function Home() {
 
 	return (
 		<>
+			<Helmet>
+				<title>Bytemeuh</title>
+				<meta name='description' content='La tech au service des vaches !' />
+				<meta property='og:title' content='Bytemeuh' />
+				<meta
+					property='og:description'
+					content='La tech au service des vaches !'
+				/>
+				<script type='application/ld+json'>
+					{`
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Home",
+            "url": "https://bytemeuh-fr.vercel.app/",
+            "description": "Découvrez comment ByteMeuh révolutionne l’élevage bovin grâce à des solutions numériques intelligentes.",
+            "mainEntity": {
+            "@type": "Organization",
+            "name": "ByteMeuh",
+            "url": "https://bytemeuh-fr.vercel.app/",
+            "logo": "https://bytemeuh-fr.vercel.app/images/logo.webp",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+33-6-06-06-06-06",
+                "contactType": "Customer Service"
+            }
+            },
+            "review": {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Camille L."
+            },
+            "reviewBody": "Grâce à ByteMeuh, je comprends mieux les besoins de mes animaux et peux intervenir à temps. Une application indispensable pour toute ferme moderne.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+            }
+            }
+        }
+        `}
+				</script>
+			</Helmet>
 			<body>
 				<div class='hero_area'>
 					{/* <!-- header section --> */}
 					<Header />
 					{/* <!-- end header--> */}
 
-					{/* <!-- end helmet--> */}
-					<Helmet>
-						<title>Bytemeuh</title>
-						<meta
-							name='description'
-							content='La tech au service des vaches !'
-						/>
-						<meta property='og:title' content='Bytemeuh' />
-						<meta
-							property='og:description'
-							content='La tech au service des vaches !'
-						/>
-					</Helmet>
 					{/* <!-- end helmet--> */}
 
 					{/* <!-- slider section --> */}
@@ -64,9 +95,9 @@ function Home() {
 														des vaches et l'efficacité des fermes.
 													</p>
 													<div class='btn-box'>
-														<a href='/contact' class='btn-1'>
+														<a href='https://bytemeuh.info/' class='btn-1'>
 															{" "}
-															Contact{" "}
+															En savoir Plus{" "}
 														</a>
 													</div>
 												</div>
@@ -89,9 +120,9 @@ function Home() {
 														l'efficacité des fermes ? ByteMeuh est là pour vous.
 													</p>
 													<div class='btn-box'>
-														<a href='/contact' class='btn-1'>
+														<a href='https://bytemeuh.go.yj.fr/' class='btn-1'>
 															{" "}
-															Contact{" "}
+															En savoir Plus{" "}
 														</a>
 													</div>
 												</div>
@@ -153,7 +184,7 @@ function Home() {
 							</div>
 							<div class='col-md-6'>
 								<div class='img-box'>
-									<img loading="lazy" src={home_1} alt='about_img' />
+									<img loading='lazy' src={home_1} alt='about_img' />
 								</div>
 							</div>
 						</div>
@@ -308,7 +339,7 @@ function Home() {
 								</div>
 								<div class='col-md-6'>
 									<div class='img-box'>
-										<img loading="lazy" src={contact_img} alt='contact' />
+										<img loading='lazy' src={contact_img} alt='contact' />
 									</div>
 								</div>
 							</div>
@@ -351,7 +382,11 @@ function Home() {
 										<div class='client_container'>
 											<div class='client-id'>
 												<div class='img-box'>
-													<img loading="lazy" src={client_img_1} alt='user_review' />
+													<img
+														loading='lazy'
+														src={client_img_1}
+														alt='user_review'
+													/>
 												</div>
 												<div class='client_name'>
 													<div>
@@ -378,7 +413,11 @@ function Home() {
 										<div class='client_container'>
 											<div class='client-id'>
 												<div class='img-box'>
-													<img loading="lazy" src={client_img_2} alt='user_review' />
+													<img
+														loading='lazy'
+														src={client_img_2}
+														alt='user_review'
+													/>
 												</div>
 												<div class='client_name'>
 													<div>
@@ -404,7 +443,11 @@ function Home() {
 										<div class='client_container'>
 											<div class='client-id'>
 												<div class='img-box'>
-													<img loading="lazy" src={client_img_3} alt='user_review' />
+													<img
+														loading='lazy'
+														src={client_img_3}
+														alt='user_review'
+													/>
 												</div>
 												<div class='client_name'>
 													<div>
